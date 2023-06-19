@@ -9,7 +9,8 @@
 * 結論
   
 # Making Videos
-* Note: For Apple M1 architecture, use torch.float32 instead, as torch.float16 is not available on MPS.
+* Note: For Apple M1 architecture, use ```torch.float32``` instead, as ```torch.float16``` is not available on MPS.
+* Note: 可將prompts改成自己想要的動物或物品
 ```python
 from stable_diffusion_videos import StableDiffusionWalkPipeline
 import torch
