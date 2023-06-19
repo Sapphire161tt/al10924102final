@@ -7,9 +7,10 @@
 * 準備資料
 * 執行結果
 * 結論
-#Making Videos
-*Note: For Apple M1 architecture, use torch.float32 instead, as torch.float16 is not available on MPS.
-
+  
+# Making Videos
+* Note: For Apple M1 architecture, use torch.float32 instead, as torch.float16 is not available on MPS.
+```
 from stable_diffusion_videos import StableDiffusionWalkPipeline
 import torch
 
@@ -29,6 +30,7 @@ video_path = pipeline.walk(
     guidance_scale=8.5,         # Higher adheres to prompt more, lower lets model take the wheel
     num_inference_steps=50,     # Number of diffusion steps per image generated. 50 is good default
 )
+```
 # 準備資料
 * 準備一個可以打開google colab 的帳號
 * 請使用我提供的stable_diffusion_videos.ipynb來進行作業
