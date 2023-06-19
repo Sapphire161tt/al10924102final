@@ -26,7 +26,7 @@ pipeline = StableDiffusionWalkPipeline.from_pretrained(
 ).to("cuda")
 
 video_path = pipeline.walk(
-    prompts=['a cat', 'a dog'],
+    prompts=['blueberry spaghetti', 'strawberry spaghetti'],
     seeds=[42, 1337],
     num_interpolation_steps=3,
     height=512,  # use multiples of 64 if > 512. Multiples of 8 if < 512.
