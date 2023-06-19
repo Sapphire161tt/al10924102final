@@ -8,6 +8,10 @@
 * 執行結果
 * 結論
   
+# 準備資料
+* 準備一個可以打開google colab 的帳號
+* 請使用我提供的stable_diffusion_videos.ipynb來進行作業
+
 # Making Videos
 * Note: For Apple M1 architecture, use ```torch.float32``` instead, as ```torch.float16``` is not available on MPS.
 * Note: 可將prompts改成自己想要的動物或物品
@@ -32,9 +36,6 @@ video_path = pipeline.walk(
     num_inference_steps=50,     # Number of diffusion steps per image generated. 50 is good default
 )
 ```
-# 準備資料
-* 準備一個可以打開google colab 的帳號
-* 請使用我提供的stable_diffusion_videos.ipynb來進行作業
 
 # 結論
 * stable_diffusion_videos.ipynb提供製作可將影片中的小物品經由AI轉換為想要的物品
