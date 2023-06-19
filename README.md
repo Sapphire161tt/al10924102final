@@ -41,4 +41,5 @@ video_path = pipeline.walk(
 * stable_diffusion_videos.ipynb提供製作可將影片中的小物品經由AI轉換為想要的物品
 * 結果在sample.mp4
 * 原作者(nateraw/stable-diffusion-videos)
-[![影片标题]
+
+[![影片标题](https://github.com/Sapphire161tt/al10924102final/blob/main/sample.mp4)
