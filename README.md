@@ -42,4 +42,4 @@ video_path = pipeline.walk(
 * 結果在sample.mp4
 * 原作者(nateraw/stable-diffusion-videos)
 
-[![影片标题](https://github.com/Sapphire161tt/al10924102final/blob/main/sample.mp4)
+Uploading sample.mp4
