@@ -37,9 +37,11 @@ video_path = pipeline.walk(
 )
 ```
 
+# demo
+
+https://github.com/Sapphire161tt/al10924102final/assets/71304476/a20e229e-8759-4184-be8f-c6d5ad91243d
+
+
 # 結論
 * stable_diffusion_videos.ipynb提供製作可將影片中的小物品經由AI轉換為想要的物品
-* 結果在sample.mp4
 * 原作者(nateraw/stable-diffusion-videos)
-
-Uploading sample.mp4
